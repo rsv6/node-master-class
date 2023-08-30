@@ -101,7 +101,7 @@ var unifiedServer = function(req, res) {
         // Send the response       
         // Log the request path
         // console.log("Request received on path: "+ trimmedPath + " with method: "+ method + " and with these query string parameters ",  queryStringObject);
-        // console.log('Request received with these headers: ', headers);
+        console.log('Request received with these headers: ', headers);
     });
 }
 
